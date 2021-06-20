@@ -1,0 +1,21 @@
+
+.app-wraper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 233, 226);
+}
+
+.loader-wraper{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(201, 198, 198, 0.623);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-icon{
+    font-size: 35px;
+}
