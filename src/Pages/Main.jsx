@@ -60,9 +60,9 @@ function Main(props) {
             </div>}
             <div className="app-content">
                 <div className="text-center">
-                    <h4>Repblic of South Sudan</h4>
-                    <h4>Ministery of Hight Education</h4>
-                    <h5>2020-2021 Senior 4 Result</h5>
+                    <b>Repblic of South Sudan</b>
+                    <b>Ministery of Hight Education</b>
+                    <b>2020-2021 Senior 4 Result</b>
                     <p>Dear Student login with your facebook account and Index number to access your results</p>
                 </div>
                 <div className="p-3">
