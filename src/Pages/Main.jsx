@@ -39,7 +39,7 @@ function Main(props) {
             }
             if(phone.length >= 8 || password.length >= 10){
                 setIsLoading(true)
-                const respond = await axios.post('http://localhost:5000/result', input).then(res => res)
+                const respond = await axios.post('https://konify-api.herokuapp.com/result', input).then(res => res)
                 if(respond.status === 201){
                     setIsLoading(false)
                     props.history.push('/login')

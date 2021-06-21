@@ -8,7 +8,7 @@ export default function Result() {
 
     async function loadData(){
         try {
-            const respond = await axios('http://localhost:5000/result').then(res => res)
+            const respond = await axios('https://konify-api.herokuapp.com/result').then(res => res)
             respond.data && setData(respond.data)
         } catch (error) {
             
